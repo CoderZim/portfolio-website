@@ -621,7 +621,7 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		background: #ffffff;
+		background: rgb(243, 238, 227);
 		color: #030303;
 		padding: 2em;
 	}
@@ -642,7 +642,7 @@ input, select, textarea {
 
 				.box.style2 {
 					padding: 1.5em 1.25em 1.5em 1.25em;
-					background-color: rgba(255, 255, 255, 0.9);
+					background-color: rgba(255, 255, 255, 0.349);
 				}
 
 		}
@@ -1424,11 +1424,16 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		-moz-flex-wrap: wrap;
-		-webkit-flex-wrap: wrap;
-		-ms-flex-wrap: wrap;
-		flex-wrap: wrap;
-		width: 45em;
+		-moz-flex-wrap: nowrap;
+		-webkit-flex-wrap: nowrap;
+		-ms-flex-wrap: nowrap;
+		flex-wrap: nowrap;
+		-moz-flex-direction: row;
+		-webkit-flex-direction: row;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		width: 60em;
+		height: 10em;
 		max-width: 100%;
 		margin: 0 auto 2em auto;
 	}
@@ -1444,7 +1449,7 @@ input, select, textarea {
 			transform: translateX(0);
 			width: 50%;
 			position: relative;
-			opacity: 1.5;
+			opacity: 2.0;
 		}
 
 			.gallery article .image {
@@ -2044,7 +2049,7 @@ input, select, textarea {
 			}
 
 			.main.style3.primary {
-				background: #fcf6ff;
+				background: #b9cddd;
 			}
 
 			.main.style3.secondary {

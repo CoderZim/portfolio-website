@@ -117,8 +117,8 @@
 				// Galleries.
 					$('.gallery')
 						.scrollex({
-							top:		'30vh',
-							bottom:		'30vh',
+							top:		'50vh',
+							bottom:		'50vh',
 							delay:		50,
 							initialize:	function() { $(this).addClass('inactive'); },
 							terminate:	function() { $(this).removeClass('inactive'); },
